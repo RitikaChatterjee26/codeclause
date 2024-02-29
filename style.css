@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.body{
+display:flex;
+align-items: center;
+justify-content: center;
+padding:0 10px;
+min-height:100vh;
+background: yellow;
+
+}
+.maincontainer{
+    border-radius:5px;
+    max-width:600px;
+    padding:30px;
+    background-color: white;
+    width:100%;
+    box-shadow: 0px 10px 20px rgb(255, 0, 93);
+}
+.tablewrapper{
+    border-radius: 8px;
+    border:2px solid plum;
+}
+.tablewrapper.text-input{
+    display:flex;
+    border-bottom:2px solid  pink;
+}
+.text-input.to-text{
+    border-radius:0px;
+    border-left:2px solid pink;
+}
+.text-input  textarea{
+    height:300px;
+    outline:none;
+    padding:10px 15px;
+    font-size:24px;
+    width:100%;
+    border-radius:4px;
+    background:none;
+    resize:none;
+    border:none;
+
+}
+.text-input textarea::placeholder{
+    color: pink;
+}
+.system, li, .icons , .icons i{
+    justify-content: space-between;
+    align-items:center;
+    display:flex;
+}
+.system{
+    list-style:none;
+    padding:12px 20px;
+}
+.system .row .icons{
+    width:40%;
+}
+.system .row .icons i{
+    width:48px;
+    cursor:pointer;
+    transition:transform 0.2s ease;
+    font-size:14px;
+    justify-content:center;
+     color:rgb(13, 1, 1);
+     background-color:white;
+}
+
+.system .row select{
+    color:black;
+    font-size:14px;
+    background-color: white;
+    font-size:15px;
+    padding:4px;
+    border:none;
+}
+.system .row .from .icons{
+    padding-right:10px;
+    background-color: white;
+    height: 40px;
+    width: 113px;
+    font-size: 19px;
+}
+.system .row .to .icons{
+    padding-left:10px;
+    background-color: white;
+    height: 40px;
+    width: 113px;
+    font-size: 19px;
+}
+.text-input textarea ::-webkit-scrollbar{
+    width:4px;
+}
+.system .row select::-webkit-scrollbar{
+    width:4px;
+
+}
+.system i:active{
+    transform: scale(0.8);
+}
+.maincontainer button{
+    width:100%;
+    padding:4px;
+    
+    border-radius:2px solid rgb(1, 0, 2);
+    font-size:16px;
+    margin:20px;
+    cursor:pointer;
+    color:brown;
+}
+
+
+.system .interexchange{
+    font-size:20px;
+    background:yellow;
+    cursor:pointer;
+    transition:ease-in;
+}
+
+
+
+
